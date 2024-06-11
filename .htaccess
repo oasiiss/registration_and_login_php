@@ -1,0 +1,10 @@
+RewriteEngine On
+
+# login.html -> /giris
+RewriteRule ^giris$ login.html [L]
+
+# register.html -> /kayit
+RewriteRule ^kayit$ register.html [L]
+
+# users.html -> /kullanicilar
+RewriteRule ^kullanicilar$ users.html [L]
