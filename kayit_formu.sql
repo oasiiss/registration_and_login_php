@@ -21,6 +21,9 @@ SET time_zone = "+00:00";
 -- Veritabanı: `kayit_formu`
 --
 
+CREATE DATABASE IF NOT EXISTS kayit_formu;
+USE kayit_formu;
+
 -- --------------------------------------------------------
 
 --
